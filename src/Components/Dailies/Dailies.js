@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Dailies = ({rides, hours, moneyMade, moneySpent}) => {
+const Dailies = ({ rides, hours, moneyMade, moneySpent }) => {
   return (
     <div>
       <h2>Daily Records</h2>
@@ -8,4 +8,4 @@ const Dailies = ({rides, hours, moneyMade, moneySpent}) => {
   )
 }
 
-export default Dailies
+export default Dailies;
