@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Dailies from '../Dailies/Dailies'
+import DailyInputForm from '../DailyInputForm/DailyInputForm'
 
 class App extends Component {
   constructor() {
@@ -11,6 +12,7 @@ class App extends Component {
     return(
       <main className='App'>
         <h2>Where it all goes</h2>
+        <DailyInputForm />
         <Dailies />
       </main>
     )
